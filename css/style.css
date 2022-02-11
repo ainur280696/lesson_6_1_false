@@ -1,0 +1,144 @@
+@import url(https://fonts.googleapis.com/css?family=Festive:regular&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Redressed:regular&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:600&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:500&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:700);
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+.text{
+    font-family: "Festive",Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0px auto;
+}
+.text-one{
+    border: 5px solid blue;
+    color: blue;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+.text-two{
+    border: 10px dotted red;
+    color:red;
+    margin-bottom: 15px;
+    text-decoration: overline;
+}
+.text-three{
+    border: 6px dashed green;
+    color: green;
+    margin-bottom: 15px;
+    text-decoration: line-through;
+}
+.text-four{
+    border: 7px double orange;
+    color: orangered;
+    margin-bottom: 15px;
+}
+.border{
+    font-family: "Redressed",Arial, Helvetica, sans-serif;
+    padding: 0px 50px;
+}
+.border-one{
+    border-top: 5px solid purple;
+    border-right: 5px dotted rgb(85, 17, 39);
+    border-bottom: 5px dashed rgb(37, 9, 37);
+    border-left: 5px double rebeccapurple;
+    margin-bottom: 15px;
+}
+.border-two{
+    border: 8px solid black;
+    border-bottom: none;
+    margin-bottom: 15px;
+}
+.border-three{
+    border: 8px solid black;
+    border-top: none;
+    margin-bottom: 15px;
+}
+.border-four{
+    border: 3px dotted royalblue;
+    display: inline;
+    line-height: 2;
+}
+.border-radious{
+    width: 600px;
+    font-family: "Titillium+Web",Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.radious-one{
+    border: 5px double red;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.radious-two{
+    border: 5px solid slateblue;
+    border-radius: 10px 0px;
+    margin-bottom: 15px;
+}
+.radious-three{
+    font-size: 18px;
+    border: 7px dotted teal;
+    border-radius: 25% 75% 25% 75% / 60% 47% 53% 40%;
+    width: 300px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border: 3px solid rgb(48, 75, 9);
+    border-radius: 50%;
+}
+.comparison{
+    max-width: 400px;
+    margin: 0 auto;
+}
+.outline{
+    outline: 5px solid indigo;
+    margin-bottom: 15px;
+}
+.not-outline{
+    border: 5px solid indigo;
+    margin-bottom: 15px;
+}
+.shadow{
+    border: 5px solid green;
+    box-shadow: inset -4px -4px 15px 1px green, 4px 4px 15px 1px rgb(5, 75, 5);
+    border-radius: 10px;
+    padding: 15px;
+    font-family: "Josefin+Sans",Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.shadow-one{
+    border: 5px solid blueviolet;
+    box-shadow: 4px 4px 15px 1px purple;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-transform: lowercase;
+}
+.shadow-two{
+    border: 5px solid red;
+    box-shadow: -4px -4px 15px 1px red;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+.block{
+    font-family: "Dancing+Script",Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.block-one{
+    opacity: 0.5;
+    text-shadow: 3px 4px 2px black;
+}
+.block-two{
+    display: none;
+}
+.block-three{
+    visibility: visible;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px red;
+    color:beige;
+}
